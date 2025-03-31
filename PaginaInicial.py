@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 st.set_page_config(
     page_title="Grupo Educacional Unis - Vagas de Emprego e Estágios", 
-    page_icon="icone/icone.png", 
+    page_icon="icone.png", 
     layout="wide"
 )
 
@@ -24,7 +24,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.image("logo/logo.png", width=100)
+st.sidebar.image("logo.png", width=100)
 
 st.sidebar.title("Navegação")
 
